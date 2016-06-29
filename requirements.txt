@@ -1,0 +1,12 @@
+flask
+tensorflow
+numpy
+scipy
+pillow
+matplotlib
+ipython
+notebook
+pandas
+sympy
+nose
+ 
