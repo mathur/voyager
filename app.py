@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request, make_response, request, current_app
 from functools import update_wrapper
 from datetime import timedelta
+
 from enum import Enum
 from neuralstyle import main
 from multiprocessing import Pool
@@ -11,6 +12,7 @@ class Filter(Enum):
     COLORFUL = 2
 
 pool = None
+
 app = Flask(__name__)
 
 def crossdomain(origin=None, methods=None, headers=None,
@@ -61,6 +63,7 @@ def start():
     base64_image = request.form['image']
     style = request.form['style']
     email = request.form['email']
+
 
     fh = open("image.jpg", "wb")
     fh.write(base64_image.decode('base64'))

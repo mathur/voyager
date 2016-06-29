@@ -9,4 +9,3 @@ notebook
 pandas
 sympy
 nose
- 
