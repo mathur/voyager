@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28F735EF596853226C9E2055 /* Pods_VoyagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4FE116E6A373EAD56FF6E7 /* Pods_VoyagerTests.framework */; };
+		A510AC8C1D163C2A00AA4C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510AC8B1D163C2A00AA4C89 /* AppDelegate.swift */; };
+		A510AC8E1D163C2A00AA4C89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510AC8D1D163C2A00AA4C89 /* ViewController.swift */; };
+		A510AC911D163C2A00AA4C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A510AC8F1D163C2A00AA4C89 /* Main.storyboard */; };
+		A510AC931D163C2A00AA4C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A510AC921D163C2A00AA4C89 /* Assets.xcassets */; };
+		A510AC961D163C2A00AA4C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A510AC941D163C2A00AA4C89 /* LaunchScreen.storyboard */; };
+		A510ACA11D163C2A00AA4C89 /* VoyagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510ACA01D163C2A00AA4C89 /* VoyagerTests.swift */; };
+		CC26E744884E7A7388B9AA93 /* Pods_Voyager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC8BA392726F03C3B35F7F8 /* Pods_Voyager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A510AC9D1D163C2A00AA4C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A510AC801D163C2A00AA4C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A510AC871D163C2A00AA4C89;
+			remoteInfo = Voyager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AC8BA392726F03C3B35F7F8 /* Pods_Voyager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Voyager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B02323FFC8890114EEDABDB /* Pods-Voyager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Voyager/Pods-Voyager.release.xcconfig"; sourceTree = "<group>"; };
+		6A4FE116E6A373EAD56FF6E7 /* Pods_VoyagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoyagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		781F71171B84D8F7988028A9 /* Pods-VoyagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoyagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoyagerTests/Pods-VoyagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A510AC881D163C2A00AA4C89 /* Voyager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voyager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A510AC8B1D163C2A00AA4C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A510AC8D1D163C2A00AA4C89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A510AC901D163C2A00AA4C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A510AC921D163C2A00AA4C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A510AC951D163C2A00AA4C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A510AC971D163C2A00AA4C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A510AC9C1D163C2A00AA4C89 /* VoyagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A510ACA01D163C2A00AA4C89 /* VoyagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyagerTests.swift; sourceTree = "<group>"; };
+		A510ACA21D163C2A00AA4C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0D98410DFDC47D751EDAF2 /* Pods-Voyager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Voyager/Pods-Voyager.debug.xcconfig"; sourceTree = "<group>"; };
+		EBCAE17A7A894F9CE19DADE1 /* Pods-VoyagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoyagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoyagerTests/Pods-VoyagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A510AC851D163C2A00AA4C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC26E744884E7A7388B9AA93 /* Pods_Voyager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A510AC991D163C2A00AA4C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F735EF596853226C9E2055 /* Pods_VoyagerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0761C88641A425FA1E7746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AC8BA392726F03C3B35F7F8 /* Pods_Voyager.framework */,
+				6A4FE116E6A373EAD56FF6E7 /* Pods_VoyagerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43229F22F4465FCC4DDB5FF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D98410DFDC47D751EDAF2 /* Pods-Voyager.debug.xcconfig */,
+				2B02323FFC8890114EEDABDB /* Pods-Voyager.release.xcconfig */,
+				EBCAE17A7A894F9CE19DADE1 /* Pods-VoyagerTests.debug.xcconfig */,
+				781F71171B84D8F7988028A9 /* Pods-VoyagerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A510AC7F1D163C2A00AA4C89 = {
+			isa = PBXGroup;
+			children = (
+				A510AC8A1D163C2A00AA4C89 /* Voyager */,
+				A510AC9F1D163C2A00AA4C89 /* VoyagerTests */,
+				A510AC891D163C2A00AA4C89 /* Products */,
+				43229F22F4465FCC4DDB5FF4 /* Pods */,
+				3D0761C88641A425FA1E7746 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A510AC891D163C2A00AA4C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A510AC881D163C2A00AA4C89 /* Voyager.app */,
+				A510AC9C1D163C2A00AA4C89 /* VoyagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A510AC8A1D163C2A00AA4C89 /* Voyager */ = {
+			isa = PBXGroup;
+			children = (
+				A510AC8B1D163C2A00AA4C89 /* AppDelegate.swift */,
+				A510AC8D1D163C2A00AA4C89 /* ViewController.swift */,
+				A510AC8F1D163C2A00AA4C89 /* Main.storyboard */,
+				A510AC921D163C2A00AA4C89 /* Assets.xcassets */,
+				A510AC941D163C2A00AA4C89 /* LaunchScreen.storyboard */,
+				A510AC971D163C2A00AA4C89 /* Info.plist */,
+			);
+			path = Voyager;
+			sourceTree = "<group>";
+		};
+		A510AC9F1D163C2A00AA4C89 /* VoyagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A510ACA01D163C2A00AA4C89 /* VoyagerTests.swift */,
+				A510ACA21D163C2A00AA4C89 /* Info.plist */,
+			);
+			path = VoyagerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A510AC871D163C2A00AA4C89 /* Voyager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A510ACA51D163C2A00AA4C89 /* Build configuration list for PBXNativeTarget "Voyager" */;
+			buildPhases = (
+				89C7BA594CD76C4948D5C82A /* 📦 Check Pods Manifest.lock */,
+				A510AC841D163C2A00AA4C89 /* Sources */,
+				A510AC851D163C2A00AA4C89 /* Frameworks */,
+				A510AC861D163C2A00AA4C89 /* Resources */,
+				0400DF4B57797CA2C891FAD1 /* 📦 Embed Pods Frameworks */,
+				14C5B745E5A1723BB3EDBD16 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voyager;
+			productName = Voyager;
+			productReference = A510AC881D163C2A00AA4C89 /* Voyager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A510AC9B1D163C2A00AA4C89 /* VoyagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A510ACA81D163C2A00AA4C89 /* Build configuration list for PBXNativeTarget "VoyagerTests" */;
+			buildPhases = (
+				9F406806077874D2135C4A8C /* 📦 Check Pods Manifest.lock */,
+				A510AC981D163C2A00AA4C89 /* Sources */,
+				A510AC991D163C2A00AA4C89 /* Frameworks */,
+				A510AC9A1D163C2A00AA4C89 /* Resources */,
+				4C36DC7F05ED9F5BBF10FEF8 /* 📦 Embed Pods Frameworks */,
+				F3D596D0ED59501338848625 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A510AC9E1D163C2A00AA4C89 /* PBXTargetDependency */,
+			);
+			name = VoyagerTests;
+			productName = VoyagerTests;
+			productReference = A510AC9C1D163C2A00AA4C89 /* VoyagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A510AC801D163C2A00AA4C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BattleOfHacks;
+				TargetAttributes = {
+					A510AC871D163C2A00AA4C89 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4389KU2L8Z;
+					};
+					A510AC9B1D163C2A00AA4C89 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A510AC871D163C2A00AA4C89;
+					};
+				};
+			};
+			buildConfigurationList = A510AC831D163C2A00AA4C89 /* Build configuration list for PBXProject "Voyager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A510AC7F1D163C2A00AA4C89;
+			productRefGroup = A510AC891D163C2A00AA4C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A510AC871D163C2A00AA4C89 /* Voyager */,
+				A510AC9B1D163C2A00AA4C89 /* VoyagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A510AC861D163C2A00AA4C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A510AC961D163C2A00AA4C89 /* LaunchScreen.storyboard in Resources */,
+				A510AC931D163C2A00AA4C89 /* Assets.xcassets in Resources */,
+				A510AC911D163C2A00AA4C89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A510AC9A1D163C2A00AA4C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0400DF4B57797CA2C891FAD1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Voyager/Pods-Voyager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14C5B745E5A1723BB3EDBD16 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Voyager/Pods-Voyager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C36DC7F05ED9F5BBF10FEF8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoyagerTests/Pods-VoyagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89C7BA594CD76C4948D5C82A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F406806077874D2135C4A8C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D596D0ED59501338848625 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoyagerTests/Pods-VoyagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A510AC841D163C2A00AA4C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A510AC8E1D163C2A00AA4C89 /* ViewController.swift in Sources */,
+				A510AC8C1D163C2A00AA4C89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A510AC981D163C2A00AA4C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A510ACA11D163C2A00AA4C89 /* VoyagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A510AC9E1D163C2A00AA4C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A510AC871D163C2A00AA4C89 /* Voyager */;
+			targetProxy = A510AC9D1D163C2A00AA4C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A510AC8F1D163C2A00AA4C89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A510AC901D163C2A00AA4C89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A510AC941D163C2A00AA4C89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A510AC951D163C2A00AA4C89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A510ACA31D163C2A00AA4C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A510ACA41D163C2A00AA4C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A510ACA61D163C2A00AA4C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0D98410DFDC47D751EDAF2 /* Pods-Voyager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Voyager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BattleOfHacks.Voyager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A510ACA71D163C2A00AA4C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B02323FFC8890114EEDABDB /* Pods-Voyager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Voyager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BattleOfHacks.Voyager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A510ACA91D163C2A00AA4C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCAE17A7A894F9CE19DADE1 /* Pods-VoyagerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoyagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BattleOfHacks.VoyagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyager.app/Voyager";
+			};
+			name = Debug;
+		};
+		A510ACAA1D163C2A00AA4C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781F71171B84D8F7988028A9 /* Pods-VoyagerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoyagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BattleOfHacks.VoyagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyager.app/Voyager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A510AC831D163C2A00AA4C89 /* Build configuration list for PBXProject "Voyager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A510ACA31D163C2A00AA4C89 /* Debug */,
+				A510ACA41D163C2A00AA4C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A510ACA51D163C2A00AA4C89 /* Build configuration list for PBXNativeTarget "Voyager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A510ACA61D163C2A00AA4C89 /* Debug */,
+				A510ACA71D163C2A00AA4C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A510ACA81D163C2A00AA4C89 /* Build configuration list for PBXNativeTarget "VoyagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A510ACA91D163C2A00AA4C89 /* Debug */,
+				A510ACAA1D163C2A00AA4C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A510AC801D163C2A00AA4C89 /* Project object */;
+}
